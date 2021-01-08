@@ -32,3 +32,6 @@ call plug#begin()
 
 " End vim-plug section
 call plug#end()
+
+" Settings for ctrlp
+let g:ctrlp_custom_ignore = 'deps\|_build'
