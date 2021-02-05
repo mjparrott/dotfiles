@@ -29,9 +29,11 @@ call plug#begin()
   Plug 'junegunn/fzf.vim'
   " vim-terraform
   Plug 'hashivim/vim-terraform'
+  " NERDTree
+  Plug 'preservim/nerdtree'
 
 " End vim-plug section
 call plug#end()
 
 " Settings for ctrlp
-let g:ctrlp_custom_ignore = 'deps\|_build'
+let g:ctrlp_custom_ignore = 'deps\|_build\|target'
