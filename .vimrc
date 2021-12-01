@@ -36,4 +36,6 @@ call plug#begin()
 call plug#end()
 
 " Settings for ctrlp
-let g:ctrlp_custom_ignore = 'deps\|_build\|target'
+let g:ctrlp_custom_ignore = 'deps\|_build\|target' " Don't search in these directories
+let g:ctrlp_working_path_mode = 0 " Don't try to automatically infer the project path
+
