@@ -31,6 +31,8 @@ call plug#begin()
   Plug 'hashivim/vim-terraform'
   " NERDTree
   Plug 'preservim/nerdtree'
+  " Git
+  Plug 'tpope/vim-fugitive'
 
 " End vim-plug section
 call plug#end()
