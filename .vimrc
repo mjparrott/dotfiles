@@ -15,7 +15,7 @@ filetype plugin indent on
 syntax on
 
 " Install plugins
-" Plugin manager is vim-plug
+" Plugin manager is vim-plug, install with :PlugInstall
 call plug#begin()
 
   " Elixir syntax highlighting support for vim
@@ -33,6 +33,8 @@ call plug#begin()
   Plug 'preservim/nerdtree'
   " Git
   Plug 'tpope/vim-fugitive'
+  " Markdown Preview for Vim
+  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 " End vim-plug section
 call plug#end()
