@@ -35,6 +35,8 @@ call plug#begin()
   Plug 'tpope/vim-fugitive'
   " Markdown Preview for Vim
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+  " Tabline
+  Plug 'mkitt/tabline.vim'
 
 " End vim-plug section
 call plug#end()
